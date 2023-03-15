@@ -1,0 +1,9 @@
+! Title: Non-block Misskey.io Ads
+# Last Update: 3/15/2023 15:00 PM JST
+! Expires: 4 days
+! Homepage: https://github.com/jinnotsu/non-block-Misskeyio-ads
+
+! for AdGuard Japanese
+misskey.io#@#.xF6dY
+misskey.io#@#._margin[style] + div div[class]:not([tabindex]) > div[class] > a[href*="://go.misskey.io/"][target="_blank"][class] > img + button:upward(3)
+misskey.io#@#+js(json-prune, ads.[].imageUrl)
